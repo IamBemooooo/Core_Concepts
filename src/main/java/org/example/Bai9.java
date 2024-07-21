@@ -1,8 +1,14 @@
 package org.example;
 
-public class Bai9 {
+import java.util.Scanner;
 
-    public void Cau9()
+public class Bai9 {
+    public static void main(String[] args)
+    {
+        Cau9();
+
+    }
+    public static void Cau9()
     {
         for(int i = 1000000;i <= 999999999;i++)
         {
@@ -13,7 +19,7 @@ public class Bai9 {
         }
     }
 
-    public boolean CheckTN(int a){
+    public static boolean CheckTN(int a){
         int b = 0;
         int c = a;
 
@@ -26,7 +32,7 @@ public class Bai9 {
         return (b == c)? true : false;
     }
 
-    public boolean CheckInclude(int a)
+    public static boolean CheckInclude(int a)
     {
         while (a != 0){
             int b = a % 10;
@@ -38,7 +44,7 @@ public class Bai9 {
         return true;
     }
 
-    public boolean CheckSum(int a){
+    public static boolean CheckSum(int a){
         int sum = 0;
         while (a != 0)
         {

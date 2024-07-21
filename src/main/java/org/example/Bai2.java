@@ -1,6 +1,15 @@
-package org.example;public class Bai2 {
+package org.example;
 
-    public void Cau2(int n)
+import java.util.Scanner;
+
+public class Bai2 {
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        Cau2(sc.nextInt());
+    }
+
+    public static void Cau2(int n)
     {
         System.out.println("Các ước số của " + n + " là:");
         int count = 0;

@@ -1,8 +1,16 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class Bai4 {
-    Bai3 b3 = new Bai3();
-    public void Cau4(int a,int b)
+    static Bai3 b3 = new Bai3();
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        Cau4(sc.nextInt(),sc.nextInt());
+    }
+
+    public static void Cau4(int a,int b)
     {
         if(a > b)
         {

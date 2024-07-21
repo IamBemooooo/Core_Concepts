@@ -1,8 +1,16 @@
 package org.example;
 
-public class Bai7 {
+import java.util.Scanner;
 
-    public void Cau7()
+public class Bai7 {
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        Cau7();
+
+    }
+
+    public static void Cau7()
     {
         for(int i = 100000; i <= 999999; i++)
         {
@@ -13,7 +21,7 @@ public class Bai7 {
         }
     }
 
-    public boolean checkSNT(int a){
+    public static boolean checkSNT(int a){
         if(a >= 2)
         {
             for (int i =2; i< a;i++)
@@ -28,7 +36,7 @@ public class Bai7 {
         return false;
     }
 
-    public boolean checkAll(int a)
+    public static boolean checkAll(int a)
     {
         while(a !=0 )
         {

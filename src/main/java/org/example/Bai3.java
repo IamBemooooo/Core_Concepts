@@ -1,8 +1,16 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class Bai3 {
 
-    public void Cau3(int a,int b)
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        Cau3(sc.nextInt(),sc.nextInt());
+    }
+
+    public static void Cau3(int a,int b)
     {
         if(a > 0 && b > 0)
         {
@@ -13,7 +21,7 @@ public class Bai3 {
 
     }
 
-    public int GCD(int a, int b)
+    public static int GCD(int a, int b)
     {
         while (b != 0)
         {

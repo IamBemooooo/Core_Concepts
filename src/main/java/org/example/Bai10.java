@@ -1,7 +1,15 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class Bai10 {
-    public void Cau10()
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        Cau10();
+
+    }
+    public static void Cau10()
     {
         for(int i = 1000000; i <= 9999999; i++ )
         {
@@ -19,7 +27,7 @@ public class Bai10 {
         }*/
     }
 
-    public boolean checkSNT(int a){
+    public static boolean checkSNT(int a){
         if(a >= 2)
         {
             for (int i =2; i< a;i++)
@@ -34,7 +42,7 @@ public class Bai10 {
         return false;
     }
 
-    public boolean checkAll(int a)
+    public static boolean checkAll(int a)
     {
         while(a !=0 )
         {
@@ -48,7 +56,7 @@ public class Bai10 {
         return true;
     }
 
-    public boolean CheckReverse(int a)
+    public static boolean CheckReverse(int a)
     {
         int b = 0;
         while (a != 0) {

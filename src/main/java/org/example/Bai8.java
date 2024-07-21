@@ -1,9 +1,16 @@
 package org.example;
 
-public class Bai8 {
+import java.util.Scanner;
 
-    Bai9 b9 = new Bai9();
-    public void b()
+public class Bai8 {
+    public static void main(String[] args)
+    {
+        a();
+        b();
+
+    }
+     static Bai9 b9 = new Bai9();
+    public static void b()
     {
         for(int i = 100000;i <= 999999;i++)
         {
@@ -14,7 +21,7 @@ public class Bai8 {
         }
     }
 
-    public void a()
+    public static void a()
     {
         for(int i = 100000;i <= 999999;i++)
         {
